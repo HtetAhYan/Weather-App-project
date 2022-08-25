@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Weather-app-project/static/css/main.90479fe3.css",
+    "main.js": "/Weather-app-project/static/js/main.014f3573.js",
+    "static/media/Android Large - 1.png": "/Weather-app-project/static/media/Android Large - 1.eb6038d96265a084b48a.png",
+    "static/media/BgPc.png": "/Weather-app-project/static/media/BgPc.e6272b239deb115c70cc.png",
+    "index.html": "/Weather-app-project/index.html",
+    "static/media/Menu.svg": "/Weather-app-project/static/media/Menu.08ead103fad1d7575f26cee62802a728.svg",
+    "main.90479fe3.css.map": "/Weather-app-project/static/css/main.90479fe3.css.map",
+    "main.014f3573.js.map": "/Weather-app-project/static/js/main.014f3573.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90479fe3.css",
+    "static/js/main.014f3573.js"
+  ]
+}
