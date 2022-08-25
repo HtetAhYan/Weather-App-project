@@ -1,0 +1,41 @@
+.footerPc {
+  background: rgba(93, 93, 93, 0.2156862745);
+  width: 100%;
+  justify-content: center;
+  height: 100% vh;
+  max-width: 98vw;
+  padding: 1.5vh;
+  display: grid;
+  padding: 0.3vh;
+  gap: 5%;
+  grid-template-columns: 15% 15% 15% 15% 17%;
+}
+.footerPc .gridFlex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footerPc .gridFlex p {
+  font-size: 1.5vw;
+}
+.footerPc .gridFlex p::first-letter {
+  color: rgb(25, 255, 174);
+}
+.footerPc .gridFlex p:hover {
+  color: rgb(25, 255, 174);
+}
+.footerPc h5 {
+  margin: 1vh 5.7vh;
+  color: #808080;
+  font-size: 2.5vh;
+  letter-spacing: 1px;
+}
+.footerPc .dateh5 {
+  font-size: 0.8rem;
+  margin: 1vh 2.5vw;
+  letter-spacing: 1px;
+  color: rgb(169, 169, 169);
+}
+.footerPc .coor {
+  font-size: 2vh;
+}/*# sourceMappingURL=FooterPc.css.map */

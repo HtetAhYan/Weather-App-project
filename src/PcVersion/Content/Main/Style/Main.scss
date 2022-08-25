@@ -1,0 +1,11 @@
+.Main{
+    height:95%;
+    width: 95%;
+    background:#121212ef;
+    border-radius: 2vw;
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 0 30px 5px rgb(16, 255, 111);
+    display:grid;
+    grid-template-rows: 10% 70% 20%;
+    overflow: hidden;
+}

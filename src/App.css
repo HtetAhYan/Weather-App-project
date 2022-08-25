@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cookie&family=Kanit:ital,wght@0,100;1,200&family=Rubik&family=Rubik+Iso&family=Silkscreen&family=Spline+Sans+Mono:ital,wght@1,700&family=Spline+Sans:wght@700&family=ZCOOL+QingKe+HuangYou&display=swap');
+body{
+ 
+    min-height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app{
+  display: none;
+  visibility: none;
+}
+@media (orientation: portrait) { 
+  .appDt{
+    display:none;
+  visibility: none;}
+.app {
+  display: block;
+  visibility: visible;
+ position: fixed;
+ top: 0;
+ bottom: 0;
+height: 100vh;
+  background: url(./Images/Android\ Large\ -\ 1.png) no-repeat;
+  background-size: cover;
+  width: 100vw;
+  background-color: black;
+}
+}
+.appDt{
+  height: 100vh;
+  background: url(./Images/BgPc.png);
+  background-size: cover;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-repeat: no-repeat;
+ overflow: hidden;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  

@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Cookie&family=Kanit:ital,wght@0,100;1,200&family=Rubik&family=Rubik+Iso&family=Silkscreen&family=Spline+Sans+Mono:ital,wght@1,700&family=Spline+Sans:wght@700&family=ZCOOL+QingKe+HuangYou&display=swap");
+.bottom {
+  position: fixed;
+  bottom: 0;
+  font-family: "Spline Sans Mono", monospace;
+  height: 20vh;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.301);
+  -webkit-backdrop-filter: blur(0.5rem);
+          backdrop-filter: blur(0.5rem);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-top: 1px solid rgb(104, 104, 104);
+  display: flex;
+  padding: 0 5vw;
+  justify-content: space-between;
+  width: 100%;
+}
+.bottom .b {
+  letter-spacing: 2px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  font-weight: thin;
+  justify-content: space-around;
+}
+.bottom .b h2 {
+  color: #ad00ff;
+}
+.bottom .b h3 {
+  text-align: center;
+}
+
+.value {
+  display: flex;
+  align-items: center;
+}
+
+.bottom .button {
+  font-size: monospace;
+  position: fixed;
+  width: 36vw;
+  left: 31vw;
+  bottom: 1vh;
+  font-size: 3vw;
+  border-radius: 1vh;
+}
+
+.detail {
+  -webkit-backdrop-filter: blur(0.3vh);
+          backdrop-filter: blur(0.3vh);
+  background-color: rgba(88, 88, 88, 0.774);
+  position: fixed;
+  width: 80vw;
+  height: 35vh;
+  bottom: 40vh;
+  left: 10vw;
+  overflow: scroll;
+  display: grid;
+  -webkit-animation-name: fadeInOut;
+          animation-name: fadeInOut;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  grid-template-rows: 20% 80%;
+  border-radius: 1.5vh;
+  box-shadow: 0 0 3rem 20rem rgba(14, 14, 14, 0.46);
+}
+.detail .detailTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detail .detailTitle p {
+  font-size: 2.5vh;
+}
+.detail .detailTitle p::first-letter {
+  font-size: 2.7vh;
+}
+.detail .detailGrid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-rows: 30% 30% 30%;
+  gap: 4%;
+  grid-template-columns: 40% 40%;
+}
+.detail .detailGrid .detailGridItems {
+  -webkit-animation-name: fadeInOut;
+          animation-name: fadeInOut;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+.detail .detailGrid .detailGridItems span {
+  display: flex;
+  align-items: center;
+}
+.detail .detailGrid .detailGridItems span p {
+  font-size: 2vh;
+}
+.detail .detailGrid .detailGridItems span p:hover {
+  background-color: transparent;
+}
+.detail .detailGrid .detailGridItems span p::first-letter {
+  font-size: 2.5vh;
+}
+.detail .detailGrid .detailGridItems h4 {
+  font-size: 2vh;
+  color: rgb(35, 255, 163);
+  letter-spacing: 0.2vh;
+}
+
+@-webkit-keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=Bottom.css.map */

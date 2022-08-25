@@ -1,0 +1,12 @@
+.Main {
+  height: 95%;
+  width: 95%;
+  background: rgba(18, 18, 18, 0.937254902);
+  border-radius: 2vw;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  box-shadow: 0 0 30px 5px rgb(16, 255, 111);
+  display: grid;
+  grid-template-rows: 10% 70% 20%;
+  overflow: hidden;
+}/*# sourceMappingURL=Main.css.map */

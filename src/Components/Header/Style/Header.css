@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Cookie&family=Rubik&family=Rubik+Iso&family=Spline+Sans+Mono:ital,wght@1,700&family=Spline+Sans:wght@700&display=swap");
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1.2rem;
+}
+.header h3 {
+  font-family: "Rubik Iso", cursive;
+}
+.header img {
+  width: 29.38px;
+  height: 25px;
+  align-items: center;
+}
+.header img:hover {
+  opacity: 0.6;
+  height: 26px;
+  width: 31px;
+}
+
+.menuLink {
+  -webkit-animation-name: fadeInOut;
+          animation-name: fadeInOut;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+  text-align: center;
+  width: 80vw;
+  height: 30vh;
+  position: fixed;
+  z-index: 30;
+  left: 10vw;
+  border-radius: 2.5vh;
+  background-color: rgba(35, 35, 35, 0.87);
+  -webkit-backdrop-filter: blur(0.5vh);
+          backdrop-filter: blur(0.5vh);
+  box-shadow: 0 0 3rem 30rem rgba(0, 0, 0, 0.781);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.8s ease-in-out all;
+}
+.menuLink ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.menuLink ul li {
+  font-size: 4vh;
+  list-style: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform all 0.3s ease-in;
+}
+.menuLink ul li:hover {
+  transform: translateY(-3px) scale(0.9);
+}
+.menuLink ul li a {
+  text-decoration: none;
+}
+.menuLink ul li a p {
+  color: #ffffff;
+}
+.menuLink ul li a p::first-letter {
+  font-size: 2rem;
+  color: rgb(60, 255, 184);
+}
+.menuLink ul li a p:hover {
+  color: rgb(212, 212, 212);
+}
+
+.aboutmb {
+  border-radius: 2vh;
+  position: fixed;
+  top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(89, 89, 89, 0.6980392157);
+  z-index: 33;
+  min-width: 60vw;
+  max-width: 80vw;
+  min-height: 30vh;
+  -webkit-backdrop-filter: blur(0.5vh);
+          backdrop-filter: blur(0.5vh);
+  padding: 0vh 2vh;
+}
+.aboutmb h1 {
+  -webkit-animation-name: fadeInOut;
+          animation-name: fadeInOut;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+}
+.aboutmb h4 {
+  padding: 1vh 2vh;
+  letter-spacing: 1.5px;
+  color: #b1b1b1;
+  -webkit-animation-name: fadeInOut;
+          animation-name: fadeInOut;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+}
+.aboutmb h4 a {
+  color: rgb(43, 255, 230);
+  text-decoration: none;
+}
+.aboutmb form {
+  -webkit-animation-name: fadeInOut;
+          animation-name: fadeInOut;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutmb form .send {
+  background-color: #4b4b4b;
+  color: aqua;
+  padding: 0.5vh 1.5vh;
+}
+
+@-webkit-keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Cookie&family=Rubik&family=Rubik+Iso&family=Silkscreen&family=Spline+Sans+Mono:ital,wght@1,700&family=Spline+Sans:wght@700&family=ZCOOL+QingKe+HuangYou&display=swap");
+* {
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.body {
+  margin-top: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2.5vh;
+}
+.body input {
+  background: transparent;
+  outline: none;
+  border: none;
+  letter-spacing: 1.4px;
+  font-size: 1.2rem;
+  padding: 0.5vh 1vh;
+  width: 50vw;
+  max-width: 60vw;
+  color: #2effce;
+}
+.body input::-moz-placeholder {
+  color: #29ffc2;
+}
+.body input:-ms-input-placeholder {
+  color: #29ffc2;
+}
+.body input::placeholder {
+  color: #29ffc2;
+}
+.body .stick {
+  width: 100%;
+  height: 3px;
+  background-color: #39ffce;
+  box-shadow: 0px 0px 50px 5px #1dcaff;
+}
+.body .autocompleteBox {
+  margin: 0.1rem;
+  width: 100%;
+  display: grid;
+  padding-left: 1vw;
+  align-items: flex-start;
+  max-width: 60vw;
+  overflow-y: scroll;
+  height: 15vh;
+  max-height: 300px;
+  overflow: initial;
+}
+.body p {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: 3.5vw;
+  -webkit-animation-name: fadeInOut;
+          animation-name: fadeInOut;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  padding: 0;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #09ffa5;
+}
+.body p::first-letter {
+  font-size: 4vw;
+  color: #00ffbb;
+}
+
+.inputBox {
+  max-width: 100%;
+}
+
+.content {
+  margin-top: 3vh;
+  display: flex;
+  -webkit-animation-name: fadeInOut;
+          animation-name: fadeInOut;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  flex-direction: column;
+  margin-right: 9vw;
+  align-items: center;
+}
+.content h1 {
+  font-size: 10vw;
+  -webkit-animation-name: fadeInOut;
+          animation-name: fadeInOut;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  color: #c5c5c5;
+}
+.content h1::first-letter {
+  font-size: 12vw;
+  color: #22deff;
+}
+.content h2 {
+  margin-top: 3vh;
+  font-size: 6vw;
+  color: #c3c3c3;
+}
+.content h2::first-letter {
+  color: #29ffcd;
+  font-size: 2.5rem;
+}
+.content img {
+  max-width: 25vh;
+  pointer-events: none;
+}
+
+@-webkit-keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=Body.css.map */
