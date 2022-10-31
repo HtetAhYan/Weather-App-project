@@ -1,2 +1,3 @@
 Live demo
-watherappprojects.netlify.app
+
+weatherappprojects.netlify.app
